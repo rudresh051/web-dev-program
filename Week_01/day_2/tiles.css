@@ -1,0 +1,341 @@
+#mainPart{
+    margin-left: 504px;
+    margin-right: 702px;
+}
+
+#navElements{
+    background-color:rgb(3,64,71);
+    display: grid;
+    grid-template: "a b c";
+    font-weight: bolder;
+    color: rgb(152,152,150);
+}
+
+#navElements > div{
+    /* border: 1px solid black; */
+    min-height: 90px;
+}
+
+#b1{
+    grid-area: a;
+    text-align: left;
+    font-size: 64px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#b2{
+    grid-area: b;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#b3{
+    grid-area: c;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+#fortyNine{
+    text-align: right;
+    padding-right: 66px;
+}
+#tilesLeft{
+    padding-right: 20px;
+}
+
+/* ************1st row**************** */
+
+#allVowels{
+    background-color:rgb(3,64,71);
+    display: grid;
+    grid-template: "a e i o u";
+    font-weight: bolder;
+    background-color:rgb(4,50,54);
+    padding-top: 27px;
+}
+
+#allVowels > div{
+    border: 2px solid black;
+    min-height: 82px;
+    text-align: center;
+    margin: 5px;
+}
+.a1Dash{
+    border: 1px dashed whitesmoke;
+    padding: 2px;
+}
+#a1{
+    grid-area: a; 
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+
+#e1{
+    grid-area: e;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#i1{
+    grid-area: i;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#o1{
+    grid-area: o;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#u1{
+    grid-area: u;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+#a1a{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#a1b{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#a1c{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+
+#e1a{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#e1b{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#e1c{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+
+#i1a{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#i1b{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#i1c{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#i1d{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#o1a{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#o1b{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#o1c{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+/* ********2nd row***************** */
+
+#secondRow{
+    background-color:rgb(3,64,71);
+    display: grid;
+    grid-template: "bb1 c1 f g h";
+    font-weight: bolder;
+    background-color:rgb(4,50,54);
+    padding-top: 27px;
+}
+#secondRow > div{
+    border: 1px solid black;
+    min-height: 82px;
+    text-align: center;
+    margin: 5px;
+}
+#bb1{
+    grid-area: bb1; 
+    background-color: rgb(148,90,36);
+    font-size: 50px;
+}
+
+#cc1{
+    grid-area: c1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+/* #c1a{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#c1b{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+}
+#c1c{
+    height: 6px;
+    margin: 2px 0px 2px 0px;
+    background-color: rgb(153,153,153);
+    border-radius: 15px;
+} */
+#f1{
+    grid-area: f;
+    background-color: rgb(36,101,5);
+    font-size: 50px;
+
+}
+#g1{
+    grid-area: g;
+    background-color: rgb(36,85,94);
+    font-size: 50px;
+
+}
+#h1{
+    grid-area: h;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+/* *********** 3rd row*********** */
+
+#thirdRow{
+    background-color:rgb(3,64,71);
+    display: grid;
+    grid-template: "l1 m1 n1 r1 s1";
+    font-weight: bolder;
+    background-color:rgb(4,50,54);
+    padding-top: 27px;
+}
+#thirdRow > div{
+    border: 1px solid black;
+    min-height: 82px;
+    text-align: center;
+    margin: 5px;
+}
+#l1{
+    grid-area: l1; 
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+
+#m1{
+    grid-area: m1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#n1{
+    grid-area: n1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#r1{
+    grid-area: r1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#s1{
+    grid-area: s1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+/* **********************fourth row*********** */
+#fourthRow{
+    background-color:rgb(3,64,71);
+    display: grid;
+    grid-template: "t1 v1 w1 y1 z1";
+    font-weight: bolder;
+    background-color:rgb(4,50,54);
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+#fourthRow > div{
+    border: 1px solid black;
+    min-height: 82px;
+    text-align: center;
+    margin: 5px;
+}
+#t1{
+    grid-area: t1; 
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+
+#v1{
+    grid-area: v1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#w1{
+    grid-area: w1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+
+}
+#y1{
+    grid-area: y1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+}
+#z1{
+    grid-area: z1;
+    background-color: rgb(153,153,153);
+    font-size: 50px;
+    display: none;
+}
+/* **********fifthRow */
+#fifthRow{
+    height: 100px;
+    background-color:rgb(3,64,71);
+}
+#sixthRow{
+    height: 200px;
+    background-color: rgb(3,45,47);
+}

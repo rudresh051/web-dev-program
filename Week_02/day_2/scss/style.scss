@@ -1,0 +1,22 @@
+@import "variables";
+@import "navbar";
+@import "content";
+
+
+.mainDiv{
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+#heading{
+    color: $mainHeadingColor;
+    text-align: $mainHeadingTextAlign;
+    border: $mainHeadingBorder;
+    height: $mainHeadingHeight;
+    font-size: $mainFontSize;
+    font-weight: $mainFontWeight;
+    background-color: $mainBackColor;
+}
+
+
+

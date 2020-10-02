@@ -1,0 +1,196 @@
+.navbarRento{
+    margin-left: 220px;
+    margin-right: 215px;
+}
+
+#login{
+    background-color: #dc3b3a;
+    color: white;
+    border-radius: 10px;
+    /* font-size: 10px; */
+    padding: 10px 15px 10px 15px;
+}
+#login:hover {
+    background-color:white;
+    color:#dc3b3a;
+  }
+
+#rentoLogo{
+    padding-right: 10px;
+}
+#rentomojoNav{
+    font-weight: bolder;
+    color: gray;
+}
+#cartNav{
+    padding: 0px 10px 0px 10px;
+}
+#formBox{
+    width: 900px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: RGB(245, 247, 250);
+    font-size: 14px;
+}
+#choosePlace{
+    color: green;
+}
+
+/* ***********Carousal *************/
+.carItems{
+    border-radius: 20px;
+    /* border: 2px solid red; */
+}
+#carouselExampleControls{
+    margin-top: 10px;
+}
+
+
+/* ***************boxes ***************/
+.boxes{
+    margin-left: 220px;
+    margin-right: 215px;
+    /* border: 2px dashed red; */
+    min-height: 40px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 210px 210px 210px 210px 210px 210px 200px;
+  }
+
+.boxes > div{
+    border: 1px solid gray;
+    padding: 40px 40px 40px 40px;
+    margin: 10% 10% 10% 10%;
+    border-radius: 5px;
+}
+.boxesIcon{
+    /* margin-left: 22px; */
+    text-align: center;
+}
+.boxesText{
+    font-size: 12px;
+    /* padding: 0px 0px 0px 5px; */
+    text-align: center;
+}
+.boxHover:hover{
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 1px 1px 4px 4px RGB(231, 233, 236) ;
+}
+
+
+/* home cards */
+#oneText{
+    margin: 0px 220px 0px 215px;
+    font-size: 25px;
+}
+#makeSpace{
+    margin-top: 50px;
+    background-color:RGB(245, 247, 250);
+    /* margin-bottom: 50px; */
+    padding: 100px 0px 50px 0px;
+}
+.homeCards{
+    /* border: 2px solid red; */
+    margin: 10px 215px 10px 220px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+.cardGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.cardImage{
+    border: 1px solid gray;
+    padding: 20px 20px 20px 20px ;
+}
+.homeCardsBorder{
+    /* border: 2px solid green; */
+}
+.makeGrid{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+}
+#rent{
+    /* border: 1px solid black; */
+}
+#rentText{
+color: grey;
+}
+#btnDanger{
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 10px 0px 0px 0px;
+    font-size: 2px;
+}
+
+/* third part */
+
+#there{
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-right: 215px;
+    font-size: 20px;
+}
+
+.features{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 500px 500px 470px ;
+    margin-left: 220px;
+    margin-right: 215px;
+    margin-top: 78px;
+}
+.featuresIcons{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+
+.makePad{
+    margin: 30px 0px 10px 15px;
+}
+.furIcon{
+    padding: 10px 10px 10px 20px;
+}
+
+/* fifthPart */
+
+#fifth{
+    margin-top: 0px;
+    margin-left: 220px;
+    margin-right: 215px;
+    background-color: RGB(245, 247, 250);
+
+}
+.fifthText{
+    padding: 30px 0px 0px 0px;
+}
+#fifthOne{
+    font-weight: bolder;
+}
+#footerLinks{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.footerLast{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+}
+#goUp{
+    text-align: right;
+}
+.socialIcons{
+    margin: 0px 5px 0px 5px;
+}
+p{
+    font-size: 15px;
+}

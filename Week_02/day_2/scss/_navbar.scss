@@ -1,0 +1,40 @@
+// navbar
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    color: blue;
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 5px 0px 5 px 0px;
+    text-align: center;
+    border: $borderColor;
+
+}
+.navbar{
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        color:$hoverColor;
+        background-color: skyblue;
+    }
+}
+.mainDiv{
+    .navImages{
+        display: grid;
+        grid-template-columns: 22.67% 21% 30% 30%;
+        grid-template-rows: 400px;
+
+        #img1{
+            height: 333px;
+            width: 400px;
+        }
+        #img4{
+            height: 333px;
+            width: 380px;
+        }
+
+    }
+}

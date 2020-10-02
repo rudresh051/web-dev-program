@@ -1,0 +1,195 @@
+#center{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#top{
+    background-color:rgb(241, 231, 231);
+}
+
+a{
+    color: gray;
+    padding-left: 50px;
+}
+nav{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+/* ___________________ */
+
+#paymentSort{
+    margin-top: 60px;
+}
+
+#payments{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 100px;
+}
+
+#allAccounts{
+    height: 30px;
+    font-weight: bolder;
+    color: rgb(10, 146, 146);
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+#textFor{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+#lastMonth{
+    height: 30px;
+    font-weight: bolder;
+    color: rgb(10, 146, 146);
+    font-size: 20px;
+    padding-left: 50px;
+}
+/* ****************************** */
+
+#thirdNav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#thirdNav > div{
+    color: green;
+    flex-basis: 20%;
+}
+
+/* ******************************* */
+
+
+#allSpan{
+    padding: 50px;
+}
+
+#allSpan > span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+#inputSearch{
+    float: right;
+    height: 40px;
+    width: 200px;
+}
+
+/* ************************** */
+
+#tablePart{
+    padding: 15px;
+}
+
+#tablePart > tr{
+    column-gap: 10px;
+}
+
+tr{
+    background-color:rgb(241, 231, 231);
+}
+td{
+    padding: 5px;
+    font-size: 20px;
+}
+.textMuted{
+    color: indigo;
+}
+
+#subscribe{
+   height: 50px;
+   width: 200px;
+   background-color: rgb(192, 255, 255);
+   border-radius: 10%;
+   font-size: 20px;
+}
+
+/* last part */
+
+#may{
+    margin-top: 20px;
+}
+
+#lastPart{
+    background-color:rgb(241, 231, 231);
+    padding: 15px;
+    font-size: 20px;
+}
+
+#box1{
+   display: flex;
+   flex-direction: row;
+}
+#box1 div:nth-of-type(1) {
+    flex-grow: 2;
+  }
+#box1 div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#box1 > div{
+    padding-left: 15px;
+}
+/* __ */
+#box2{
+    display: flex;
+    flex-direction: row; 
+ }
+
+ #box2 div:nth-of-type(1) {
+    flex-grow: 2;
+  }
+#box2 div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#box2 > div{
+    padding: 15px;
+}
+
+/* __ */
+
+
+ #box3{
+    display: flex;
+    flex-direction: row; 
+ }
+ #box3 div:nth-of-type(1) {
+    flex-grow: 2;
+  }
+#box3 div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#box3 > div{
+    padding: 15px;
+}
+
+ /* __ */
+ #box4{
+    display: flex;
+    flex-direction: row; 
+ }
+ #box4 div:nth-of-type(1) {
+    flex-grow: 2;
+  }
+#box4 div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#box4 > div{
+    padding: 15px;
+}
+
+/* ********** */
+.income{
+    color: blue;
+    /* border: 1px solid black; */
+    border-radius: 1%;
+    /* margin-right: 10px; */
+}
